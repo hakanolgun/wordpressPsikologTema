@@ -1,0 +1,124 @@
+[26-Apr-2021 10:55:55 UTC] PHP Warning:  Use of undefined constant Hakkımda - assumed 'Hakkımda' (this will throw an Error in a future version of PHP) in /home/hakan/Local Sites/psikolog/app/public/wp-content/themes/psikolog/front-page.php on line 50
+[26-Apr-2021 10:55:55 UTC] PHP Stack trace:
+[26-Apr-2021 10:55:55 UTC] PHP   1. {main}() /home/hakan/Local Sites/psikolog/app/public/index.php:0
+[26-Apr-2021 10:55:55 UTC] PHP   2. require() /home/hakan/Local Sites/psikolog/app/public/index.php:17
+[26-Apr-2021 10:55:55 UTC] PHP   3. require_once() /home/hakan/Local Sites/psikolog/app/public/wp-blog-header.php:19
+[26-Apr-2021 10:55:55 UTC] PHP   4. include() /home/hakan/Local Sites/psikolog/app/public/wp-includes/template-loader.php:106
+[27-Apr-2021 12:16:53 UTC] PHP Parse error:  syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/hakan/Local Sites/psikolog/app/public/wp-content/themes/psikolog/functions.php on line 125
+[27-Apr-2021 12:18:38 UTC] PHP Parse error:  syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/hakan/Local Sites/psikolog/app/public/wp-content/themes/psikolog/functions.php on line 125
+[27-Apr-2021 12:18:53 UTC] PHP Parse error:  syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/hakan/Local Sites/psikolog/app/public/wp-content/themes/psikolog/functions.php on line 125
+[29-Apr-2021 07:14:20 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 1 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots
+[29-Apr-2021 07:14:20 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 0 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_closed_slots
+[29-Apr-2021 07:14:20 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_appointments WHERE 
+			((location=0 AND service=0) OR '0' = '0') AND 
+			worker=0 AND 
+			date <= '' AND
+			end_date >= '' AND
+			id <> -1 AND 
+			status NOT IN ('abandoned','canceled') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_reserved_slots
+[29-Apr-2021 07:14:22 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 1 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots
+[29-Apr-2021 07:14:22 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 0 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_closed_slots
+[29-Apr-2021 07:14:22 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_appointments WHERE 
+			((location=0 AND service=0) OR '0' = '0') AND 
+			worker=0 AND 
+			date <= '' AND
+			end_date >= '' AND
+			id <> -1 AND 
+			status NOT IN ('abandoned','canceled') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_reserved_slots
+[29-Apr-2021 07:14:24 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 1 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots
+[29-Apr-2021 07:14:24 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 0 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_closed_slots
+[29-Apr-2021 07:14:24 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_appointments WHERE 
+			((location=0 AND service=0) OR '0' = '0') AND 
+			worker=0 AND 
+			date <= '' AND
+			end_date >= '' AND
+			id <> -1 AND 
+			status NOT IN ('abandoned','canceled') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_reserved_slots
+[29-Apr-2021 07:14:29 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 1 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots
+[29-Apr-2021 07:14:29 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 0 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_closed_slots
+[29-Apr-2021 07:14:29 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_appointments WHERE 
+			((location=0 AND service=0) OR '0' = '0') AND 
+			worker=0 AND 
+			date <= '' AND
+			end_date >= '' AND
+			id <> -1 AND 
+			status NOT IN ('abandoned','canceled') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_reserved_slots
+[29-Apr-2021 07:14:32 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 1 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots
+[29-Apr-2021 07:14:32 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_connections WHERE 
+			location=0 AND 
+			service=0 AND 
+			worker=0 AND 
+			day_of_week LIKE '%Thursday%' AND 
+			is_working = 0 AND 
+			(day_from IS NULL OR day_from <= '') AND 
+			(day_to IS NULL OR day_to >= '') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_closed_slots
+[29-Apr-2021 07:14:32 UTC] WordPress database error Incorrect DATE value: '' for query SELECT * FROM wp_ea_appointments WHERE 
+			((location=0 AND service=0) OR '0' = '0') AND 
+			worker=0 AND 
+			date <= '' AND
+			end_date >= '' AND
+			id <> -1 AND 
+			status NOT IN ('abandoned','canceled') made by do_action('wp_ajax_ea_date_selected'), WP_Hook->do_action, WP_Hook->apply_filters, EAAjax->ajax_date_selected, EALogic->get_open_slots, EALogic->remove_reserved_slots

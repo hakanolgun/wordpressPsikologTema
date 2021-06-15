@@ -1,0 +1,1 @@
+<p>Bu Sayfa index.php sayfasidir. Herhangi bir nedenle front-page sayfasına ulaşılamadığında gösterilir</p>
