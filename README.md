@@ -7,4 +7,6 @@ Tema zip dosyası olarak indirlebilir ve herhangi bir wordpress kurulumunda kull
 + Randevu alma ve takip sistemi
 + Özelleştirilebilir bölümler
 
+Canlı: [Örnek Site](https://deneme1.cf/)
+
 <img src="psikolog_tema.png" width="100%" align="center">
